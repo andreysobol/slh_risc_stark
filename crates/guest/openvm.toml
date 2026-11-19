@@ -1,0 +1,9 @@
+[app_vm_config.rv32i]
+[app_vm_config.rv32m]
+[app_vm_config.io]
+[app_vm_config.sha2]
+
+# The system config (incl. num_public_values = 64: 32 SHA-256 bytes, 4 bytes
+# for the batch count, 28 zero bytes; OpenVM requires 8 * 2^k) is set in crates/harness/src/main.rs on top of the SDK
+# defaults, because a partial [app_vm_config.system.config] table must list
+# every SystemConfig field (max_constraint_degree, full memory_config, ...).

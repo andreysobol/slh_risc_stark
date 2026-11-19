@@ -1,0 +1,12 @@
+/target/
+/openvm/
+/crates/guest/openvm/
+*.proof
+*.pk
+*.vk
+*.pem
+/results/runs.jsonl
+/results/summary.csv
+/results/*.png
+/fixtures/generated/
+__pycache__/

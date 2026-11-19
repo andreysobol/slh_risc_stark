@@ -1,0 +1,18 @@
+[package]
+name = "slh-guest"
+version = "0.1.0"
+edition.workspace = true
+license.workspace = true
+
+[[bin]]
+name = "slh-guest"
+path = "src/main.rs"
+
+[features]
+default = []
+std = ["openvm/std"]
+
+[dependencies]
+openvm = { git = "https://github.com/openvm-org/openvm.git", tag = "v2.1.0" }
+openvm-sha2 = { git = "https://github.com/openvm-org/openvm.git", tag = "v2.1.0" }
+slh-core = { path = "../slh-core" }
