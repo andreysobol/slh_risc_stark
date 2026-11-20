@@ -111,5 +111,3 @@ For a batch of N signatures, the STARK establishes that:
 - Accelerated SHA-2: https://docs.openvm.dev/book/guest-libraries/sha2/
 - SWIRL STARK backend: https://github.com/openvm-org/stark-backend
 - Plonky3: https://github.com/Plonky3/Plonky3
-
-**Scope:** Research/benchmarking only. No blockchain, consensus, EVM, smart contracts, wallet integration, formal verification or elliptic-curve proof wrappers.
