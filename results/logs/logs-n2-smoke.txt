@@ -1,0 +1,33 @@
+128 fixtures | SHA256 file=a1f8f022fe6a703200f301b8de36d2a41dd51289f2629e770a5f6c90694bb044 | path=/root/slh_risk_stark/fixtures/fixtures.json
+    Finished `release` profile [optimized] target(s) in 0.25s
+     Running `target/release/slh-harness --repeats 1 --warmup 0 --fixtures /root/slh_risk_stark/fixtures/fixtures.json --out /root/slh_risk_stark/results --mode both --n 2`
+cargo:rerun-if-env-changed=OPENVM_SKIP_BUILD
+Using rustc: /root/.rustup/toolchains/nightly-2026-02-28-x86_64-unknown-linux-gnu/bin/rustc
+Building guest package: cargo +nightly-2026-02-28 build --target riscv32im-risc0-zkvm-elf -Z build-std=alloc,core,proc_macro,panic_abort,std -Z build-std-features=compiler-builtins-mem
+N=2 run=0 status=ok prove=Some(100.270399243)s verify=Some(0.019604347)s bytes=Some(267383)
+/root/slh_risk_stark/tools/report.py:55: UserWarning: FixedFormatter should only be used together with FixedLocator
+  ax.set_xticklabels([str(v) for v in SIZES])
+Created summary, statistics, and six graphs. Verified STARK runs: 2
+	Command being timed: "python3 tools/benchmark.py --n 2 --repeats 1 --warmup 0 --timeout 7200"
+	User time (seconds): 1681.03
+	System time (seconds): 111.29
+	Percent of CPU this job got: 914%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 3:15.94
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 28500480
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 38923572
+	Voluntary context switches: 359806
+	Involuntary context switches: 418168
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 5648
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

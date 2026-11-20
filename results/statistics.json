@@ -1,0 +1,816 @@
+{
+  "stark_has_been_run": true,
+  "benchmark_note": "SHA2 from independent FIPS205 Python counters; no estimated STARK measurements.",
+  "details": {
+    "1": {
+      "metrics": {
+        "stark_prove_seconds": {
+          "median": 68.115147452,
+          "min": 68.115147452,
+          "max": 68.115147452,
+          "p95": null,
+          "samples": 1
+        },
+        "stark_verify_seconds": {
+          "median": 0.018663796,
+          "min": 0.018663796,
+          "max": 0.018663796,
+          "p95": null,
+          "samples": 1
+        },
+        "stark_proof_bytes": {
+          "median": 267383.0,
+          "min": 267383.0,
+          "max": 267383.0,
+          "p95": null,
+          "samples": 1
+        },
+        "guest_execute_seconds": {
+          "median": 0.035751522,
+          "min": 0.035751522,
+          "max": 0.035751522,
+          "p95": null,
+          "samples": 1
+        },
+        "app_prove_seconds": {
+          "median": 48.896581261,
+          "min": 48.896581261,
+          "max": 48.896581261,
+          "p95": null,
+          "samples": 1
+        },
+        "app_verify_seconds": {
+          "median": 0.044711062,
+          "min": 0.044711062,
+          "max": 0.044711062,
+          "p95": null,
+          "samples": 1
+        },
+        "app_proof_bytes": {
+          "median": null,
+          "min": null,
+          "max": null,
+          "p95": null,
+          "samples": 0
+        },
+        "peak_ram_bytes": {
+          "median": 15927922688.0,
+          "min": 15927922688.0,
+          "max": 15927922688.0,
+          "p95": null,
+          "samples": 1
+        },
+        "vm_cycles": {
+          "median": null,
+          "min": null,
+          "max": null,
+          "p95": null,
+          "samples": 0
+        },
+        "sha2_accelerated_ops": {
+          "median": null,
+          "min": null,
+          "max": null,
+          "p95": null,
+          "samples": 0
+        },
+        "continuation_segments": {
+          "median": null,
+          "min": null,
+          "max": null,
+          "p95": null,
+          "samples": 0
+        },
+        "air_trace_rows": {
+          "median": null,
+          "min": null,
+          "max": null,
+          "p95": null,
+          "samples": 0
+        }
+      },
+      "failed_runs": [],
+      "success_runs": 1
+    },
+    "2": {
+      "metrics": {
+        "stark_prove_seconds": {
+          "median": 100.270399243,
+          "min": 100.270399243,
+          "max": 100.270399243,
+          "p95": null,
+          "samples": 1
+        },
+        "stark_verify_seconds": {
+          "median": 0.019604347,
+          "min": 0.019604347,
+          "max": 0.019604347,
+          "p95": null,
+          "samples": 1
+        },
+        "stark_proof_bytes": {
+          "median": 267383.0,
+          "min": 267383.0,
+          "max": 267383.0,
+          "p95": null,
+          "samples": 1
+        },
+        "guest_execute_seconds": {
+          "median": 0.046226476,
+          "min": 0.046226476,
+          "max": 0.046226476,
+          "p95": null,
+          "samples": 1
+        },
+        "app_prove_seconds": {
+          "median": 82.63896525,
+          "min": 82.63896525,
+          "max": 82.63896525,
+          "p95": null,
+          "samples": 1
+        },
+        "app_verify_seconds": {
+          "median": 0.048997076,
+          "min": 0.048997076,
+          "max": 0.048997076,
+          "p95": null,
+          "samples": 1
+        },
+        "app_proof_bytes": {
+          "median": null,
+          "min": null,
+          "max": null,
+          "p95": null,
+          "samples": 0
+        },
+        "peak_ram_bytes": {
+          "median": 29184491520.0,
+          "min": 29184491520.0,
+          "max": 29184491520.0,
+          "p95": null,
+          "samples": 1
+        },
+        "vm_cycles": {
+          "median": null,
+          "min": null,
+          "max": null,
+          "p95": null,
+          "samples": 0
+        },
+        "sha2_accelerated_ops": {
+          "median": null,
+          "min": null,
+          "max": null,
+          "p95": null,
+          "samples": 0
+        },
+        "continuation_segments": {
+          "median": null,
+          "min": null,
+          "max": null,
+          "p95": null,
+          "samples": 0
+        },
+        "air_trace_rows": {
+          "median": null,
+          "min": null,
+          "max": null,
+          "p95": null,
+          "samples": 0
+        }
+      },
+      "failed_runs": [],
+      "success_runs": 1
+    },
+    "3": {
+      "metrics": {
+        "stark_prove_seconds": {
+          "median": null,
+          "min": null,
+          "max": null,
+          "p95": null,
+          "samples": 0
+        },
+        "stark_verify_seconds": {
+          "median": null,
+          "min": null,
+          "max": null,
+          "p95": null,
+          "samples": 0
+        },
+        "stark_proof_bytes": {
+          "median": null,
+          "min": null,
+          "max": null,
+          "p95": null,
+          "samples": 0
+        },
+        "guest_execute_seconds": {
+          "median": null,
+          "min": null,
+          "max": null,
+          "p95": null,
+          "samples": 0
+        },
+        "app_prove_seconds": {
+          "median": null,
+          "min": null,
+          "max": null,
+          "p95": null,
+          "samples": 0
+        },
+        "app_verify_seconds": {
+          "median": null,
+          "min": null,
+          "max": null,
+          "p95": null,
+          "samples": 0
+        },
+        "app_proof_bytes": {
+          "median": null,
+          "min": null,
+          "max": null,
+          "p95": null,
+          "samples": 0
+        },
+        "peak_ram_bytes": {
+          "median": null,
+          "min": null,
+          "max": null,
+          "p95": null,
+          "samples": 0
+        },
+        "vm_cycles": {
+          "median": null,
+          "min": null,
+          "max": null,
+          "p95": null,
+          "samples": 0
+        },
+        "sha2_accelerated_ops": {
+          "median": null,
+          "min": null,
+          "max": null,
+          "p95": null,
+          "samples": 0
+        },
+        "continuation_segments": {
+          "median": null,
+          "min": null,
+          "max": null,
+          "p95": null,
+          "samples": 0
+        },
+        "air_trace_rows": {
+          "median": null,
+          "min": null,
+          "max": null,
+          "p95": null,
+          "samples": 0
+        }
+      },
+      "failed_runs": [],
+      "success_runs": 0
+    },
+    "4": {
+      "metrics": {
+        "stark_prove_seconds": {
+          "median": 199.630669986,
+          "min": 199.630669986,
+          "max": 199.630669986,
+          "p95": null,
+          "samples": 1
+        },
+        "stark_verify_seconds": {
+          "median": 0.018299386,
+          "min": 0.018299386,
+          "max": 0.018299386,
+          "p95": null,
+          "samples": 1
+        },
+        "stark_proof_bytes": {
+          "median": 267383.0,
+          "min": 267383.0,
+          "max": 267383.0,
+          "p95": null,
+          "samples": 1
+        },
+        "guest_execute_seconds": {
+          "median": 0.07008653,
+          "min": 0.07008653,
+          "max": 0.07008653,
+          "p95": null,
+          "samples": 1
+        },
+        "app_prove_seconds": {
+          "median": 180.766719084,
+          "min": 180.766719084,
+          "max": 180.766719084,
+          "p95": null,
+          "samples": 1
+        },
+        "app_verify_seconds": {
+          "median": 0.097306048,
+          "min": 0.097306048,
+          "max": 0.097306048,
+          "p95": null,
+          "samples": 1
+        },
+        "app_proof_bytes": {
+          "median": null,
+          "min": null,
+          "max": null,
+          "p95": null,
+          "samples": 0
+        },
+        "peak_ram_bytes": {
+          "median": 52154503168.0,
+          "min": 52154503168.0,
+          "max": 52154503168.0,
+          "p95": null,
+          "samples": 1
+        },
+        "vm_cycles": {
+          "median": null,
+          "min": null,
+          "max": null,
+          "p95": null,
+          "samples": 0
+        },
+        "sha2_accelerated_ops": {
+          "median": null,
+          "min": null,
+          "max": null,
+          "p95": null,
+          "samples": 0
+        },
+        "continuation_segments": {
+          "median": null,
+          "min": null,
+          "max": null,
+          "p95": null,
+          "samples": 0
+        },
+        "air_trace_rows": {
+          "median": null,
+          "min": null,
+          "max": null,
+          "p95": null,
+          "samples": 0
+        }
+      },
+      "failed_runs": [],
+      "success_runs": 1
+    },
+    "8": {
+      "metrics": {
+        "stark_prove_seconds": {
+          "median": 362.773148655,
+          "min": 362.773148655,
+          "max": 362.773148655,
+          "p95": null,
+          "samples": 1
+        },
+        "stark_verify_seconds": {
+          "median": 0.01829679,
+          "min": 0.01829679,
+          "max": 0.01829679,
+          "p95": null,
+          "samples": 1
+        },
+        "stark_proof_bytes": {
+          "median": 267383.0,
+          "min": 267383.0,
+          "max": 267383.0,
+          "p95": null,
+          "samples": 1
+        },
+        "guest_execute_seconds": {
+          "median": 0.125138815,
+          "min": 0.125138815,
+          "max": 0.125138815,
+          "p95": null,
+          "samples": 1
+        },
+        "app_prove_seconds": {
+          "median": 333.77074623,
+          "min": 333.77074623,
+          "max": 333.77074623,
+          "p95": null,
+          "samples": 1
+        },
+        "app_verify_seconds": {
+          "median": 0.156653522,
+          "min": 0.156653522,
+          "max": 0.156653522,
+          "p95": null,
+          "samples": 1
+        },
+        "app_proof_bytes": {
+          "median": null,
+          "min": null,
+          "max": null,
+          "p95": null,
+          "samples": 0
+        },
+        "peak_ram_bytes": {
+          "median": 52402708480.0,
+          "min": 52402708480.0,
+          "max": 52402708480.0,
+          "p95": null,
+          "samples": 1
+        },
+        "vm_cycles": {
+          "median": null,
+          "min": null,
+          "max": null,
+          "p95": null,
+          "samples": 0
+        },
+        "sha2_accelerated_ops": {
+          "median": null,
+          "min": null,
+          "max": null,
+          "p95": null,
+          "samples": 0
+        },
+        "continuation_segments": {
+          "median": null,
+          "min": null,
+          "max": null,
+          "p95": null,
+          "samples": 0
+        },
+        "air_trace_rows": {
+          "median": null,
+          "min": null,
+          "max": null,
+          "p95": null,
+          "samples": 0
+        }
+      },
+      "failed_runs": [],
+      "success_runs": 1
+    },
+    "16": {
+      "metrics": {
+        "stark_prove_seconds": {
+          "median": 754.104755638,
+          "min": 754.104755638,
+          "max": 754.104755638,
+          "p95": null,
+          "samples": 1
+        },
+        "stark_verify_seconds": {
+          "median": 0.018547093,
+          "min": 0.018547093,
+          "max": 0.018547093,
+          "p95": null,
+          "samples": 1
+        },
+        "stark_proof_bytes": {
+          "median": 267383.0,
+          "min": 267383.0,
+          "max": 267383.0,
+          "p95": null,
+          "samples": 1
+        },
+        "guest_execute_seconds": {
+          "median": 0.242105309,
+          "min": 0.242105309,
+          "max": 0.242105309,
+          "p95": null,
+          "samples": 1
+        },
+        "app_prove_seconds": {
+          "median": 708.249513077,
+          "min": 708.249513077,
+          "max": 708.249513077,
+          "p95": null,
+          "samples": 1
+        },
+        "app_verify_seconds": {
+          "median": 0.312112362,
+          "min": 0.312112362,
+          "max": 0.312112362,
+          "p95": null,
+          "samples": 1
+        },
+        "app_proof_bytes": {
+          "median": null,
+          "min": null,
+          "max": null,
+          "p95": null,
+          "samples": 0
+        },
+        "peak_ram_bytes": {
+          "median": 52504559616.0,
+          "min": 52504559616.0,
+          "max": 52504559616.0,
+          "p95": null,
+          "samples": 1
+        },
+        "vm_cycles": {
+          "median": null,
+          "min": null,
+          "max": null,
+          "p95": null,
+          "samples": 0
+        },
+        "sha2_accelerated_ops": {
+          "median": null,
+          "min": null,
+          "max": null,
+          "p95": null,
+          "samples": 0
+        },
+        "continuation_segments": {
+          "median": null,
+          "min": null,
+          "max": null,
+          "p95": null,
+          "samples": 0
+        },
+        "air_trace_rows": {
+          "median": null,
+          "min": null,
+          "max": null,
+          "p95": null,
+          "samples": 0
+        }
+      },
+      "failed_runs": [],
+      "success_runs": 1
+    },
+    "32": {
+      "metrics": {
+        "stark_prove_seconds": {
+          "median": 1519.344106545,
+          "min": 1519.344106545,
+          "max": 1519.344106545,
+          "p95": null,
+          "samples": 1
+        },
+        "stark_verify_seconds": {
+          "median": 0.019209485,
+          "min": 0.019209485,
+          "max": 0.019209485,
+          "p95": null,
+          "samples": 1
+        },
+        "stark_proof_bytes": {
+          "median": 267383.0,
+          "min": 267383.0,
+          "max": 267383.0,
+          "p95": null,
+          "samples": 1
+        },
+        "guest_execute_seconds": {
+          "median": 0.464825097,
+          "min": 0.464825097,
+          "max": 0.464825097,
+          "p95": null,
+          "samples": 1
+        },
+        "app_prove_seconds": {
+          "median": 1439.325948185,
+          "min": 1439.325948185,
+          "max": 1439.325948185,
+          "p95": null,
+          "samples": 1
+        },
+        "app_verify_seconds": {
+          "median": 0.61866153,
+          "min": 0.61866153,
+          "max": 0.61866153,
+          "p95": null,
+          "samples": 1
+        },
+        "app_proof_bytes": {
+          "median": null,
+          "min": null,
+          "max": null,
+          "p95": null,
+          "samples": 0
+        },
+        "peak_ram_bytes": {
+          "median": 52333096960.0,
+          "min": 52333096960.0,
+          "max": 52333096960.0,
+          "p95": null,
+          "samples": 1
+        },
+        "vm_cycles": {
+          "median": null,
+          "min": null,
+          "max": null,
+          "p95": null,
+          "samples": 0
+        },
+        "sha2_accelerated_ops": {
+          "median": null,
+          "min": null,
+          "max": null,
+          "p95": null,
+          "samples": 0
+        },
+        "continuation_segments": {
+          "median": null,
+          "min": null,
+          "max": null,
+          "p95": null,
+          "samples": 0
+        },
+        "air_trace_rows": {
+          "median": null,
+          "min": null,
+          "max": null,
+          "p95": null,
+          "samples": 0
+        }
+      },
+      "failed_runs": [],
+      "success_runs": 1
+    },
+    "64": {
+      "metrics": {
+        "stark_prove_seconds": {
+          "median": null,
+          "min": null,
+          "max": null,
+          "p95": null,
+          "samples": 0
+        },
+        "stark_verify_seconds": {
+          "median": null,
+          "min": null,
+          "max": null,
+          "p95": null,
+          "samples": 0
+        },
+        "stark_proof_bytes": {
+          "median": null,
+          "min": null,
+          "max": null,
+          "p95": null,
+          "samples": 0
+        },
+        "guest_execute_seconds": {
+          "median": null,
+          "min": null,
+          "max": null,
+          "p95": null,
+          "samples": 0
+        },
+        "app_prove_seconds": {
+          "median": null,
+          "min": null,
+          "max": null,
+          "p95": null,
+          "samples": 0
+        },
+        "app_verify_seconds": {
+          "median": null,
+          "min": null,
+          "max": null,
+          "p95": null,
+          "samples": 0
+        },
+        "app_proof_bytes": {
+          "median": null,
+          "min": null,
+          "max": null,
+          "p95": null,
+          "samples": 0
+        },
+        "peak_ram_bytes": {
+          "median": null,
+          "min": null,
+          "max": null,
+          "p95": null,
+          "samples": 0
+        },
+        "vm_cycles": {
+          "median": null,
+          "min": null,
+          "max": null,
+          "p95": null,
+          "samples": 0
+        },
+        "sha2_accelerated_ops": {
+          "median": null,
+          "min": null,
+          "max": null,
+          "p95": null,
+          "samples": 0
+        },
+        "continuation_segments": {
+          "median": null,
+          "min": null,
+          "max": null,
+          "p95": null,
+          "samples": 0
+        },
+        "air_trace_rows": {
+          "median": null,
+          "min": null,
+          "max": null,
+          "p95": null,
+          "samples": 0
+        }
+      },
+      "failed_runs": [],
+      "success_runs": 0
+    },
+    "128": {
+      "metrics": {
+        "stark_prove_seconds": {
+          "median": null,
+          "min": null,
+          "max": null,
+          "p95": null,
+          "samples": 0
+        },
+        "stark_verify_seconds": {
+          "median": null,
+          "min": null,
+          "max": null,
+          "p95": null,
+          "samples": 0
+        },
+        "stark_proof_bytes": {
+          "median": null,
+          "min": null,
+          "max": null,
+          "p95": null,
+          "samples": 0
+        },
+        "guest_execute_seconds": {
+          "median": null,
+          "min": null,
+          "max": null,
+          "p95": null,
+          "samples": 0
+        },
+        "app_prove_seconds": {
+          "median": null,
+          "min": null,
+          "max": null,
+          "p95": null,
+          "samples": 0
+        },
+        "app_verify_seconds": {
+          "median": null,
+          "min": null,
+          "max": null,
+          "p95": null,
+          "samples": 0
+        },
+        "app_proof_bytes": {
+          "median": null,
+          "min": null,
+          "max": null,
+          "p95": null,
+          "samples": 0
+        },
+        "peak_ram_bytes": {
+          "median": null,
+          "min": null,
+          "max": null,
+          "p95": null,
+          "samples": 0
+        },
+        "vm_cycles": {
+          "median": null,
+          "min": null,
+          "max": null,
+          "p95": null,
+          "samples": 0
+        },
+        "sha2_accelerated_ops": {
+          "median": null,
+          "min": null,
+          "max": null,
+          "p95": null,
+          "samples": 0
+        },
+        "continuation_segments": {
+          "median": null,
+          "min": null,
+          "max": null,
+          "p95": null,
+          "samples": 0
+        },
+        "air_trace_rows": {
+          "median": null,
+          "min": null,
+          "max": null,
+          "p95": null,
+          "samples": 0
+        }
+      },
+      "failed_runs": [],
+      "success_runs": 0
+    }
+  }
+}
